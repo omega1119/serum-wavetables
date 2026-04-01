@@ -11,6 +11,8 @@ serum-wavetables/
 ├── src/
 │   └── generate_wavetable.py   # Wavetable generator script
 ├── output/                     # Generated WAV files (after running)
+├── images/
+│   └── serum-patch-preview.png # Serum 2 patch screenshot
 └── README.md
 ```
 
@@ -42,6 +44,8 @@ Output files are written to the `output/` directory.
 - Set **Unison** to **4** for a wider, detuned sound.
 - Assign an **LFO** to the **WT Pos** parameter to automatically sweep through the wavefolder drive stages.
 - Click the wavetable display to switch to the **3D render** view — this gives a clear visual of how the harmonic content evolves across frames.
+
+![Serum 2 patch preview](images/serum-patch-preview.png)
 
 ## Requirements
 
